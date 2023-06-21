@@ -75,14 +75,13 @@ class _HomePageState extends State<HomePage> {
                   ),
                   backgroundColor: const Color.fromARGB(255, 38, 95, 139),
                   padding:
-                      EdgeInsets.symmetric(vertical: 38.h, horizontal: 38.w)),
+                      EdgeInsets.symmetric(vertical: 38.h, horizontal: 47.w)),
               child: const Text(
                 '+',
                 style: TextStyle(fontSize: 24, fontWeight: FontWeight.bold),
               ),
             ),
             SizedBox(height: 20.h),
-
             ElevatedButton(
               onPressed: () {
                 setState(() {
@@ -95,7 +94,7 @@ class _HomePageState extends State<HomePage> {
                   borderRadius: BorderRadius.circular(18), // <-- Radius
                 ),
                 backgroundColor: const Color.fromARGB(255, 38, 95, 139),
-                padding: EdgeInsets.symmetric(vertical: 38.h, horizontal: 40.w),
+                padding: EdgeInsets.symmetric(vertical: 38.h, horizontal: 48.w),
               ),
               child: const Text(
                 '-',
@@ -118,7 +117,7 @@ class _HomePageState extends State<HomePage> {
                   ),
                   backgroundColor: const Color.fromARGB(255, 38, 95, 139),
                   padding:
-                      EdgeInsets.symmetric(vertical: 46.h, horizontal: 35.w),
+                      EdgeInsets.symmetric(vertical: 46.h, horizontal: 37.w),
                 ),
                 child: const Text(
                   "Reset",
